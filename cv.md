@@ -24,6 +24,21 @@ I'm successfully completing my university studies and devoting all my free time 
 
 ## Skills and Proficiency:
 
-### Code example:
+* HTML5
+* CSS3
+* JS/TS
+* C# 
 
+### Code example:
+```
+<!DOCTYPE html>
+<html>
+<body><h1>Первый заголовок</h1>
+<p>Первый абзац.</p></body>
+</html>
+```
 ## Languages
+
+* English  B1 *(in progress)*
+* Belarusian   Native 
+* Polish      *(in progress)*
