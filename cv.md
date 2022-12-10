@@ -1,4 +1,4 @@
-# # Maria Shalukhova
+# Maria Shalukhova
 ### JS/Frontend 
 
 ## Contact information:
