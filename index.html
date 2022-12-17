@@ -14,17 +14,17 @@
         <nav class="navigation">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#contacts" class="nav-link">Contacts</a>
+              <a class="nav-link" href="#contacts">Contacts</a>
             </li>
             <li class="nav-item">
-              <a href="#summary" class="nav-link">Summary</a>
+              <a class="nav-link" href="#summary">Summary</a>
             </li>
             <li class="nav-item">
-              <a href="#skills" class="nav-link">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
             <li class="nav-item">
-              <a href="#education" class="nav-link">Education</a>
+              <a  class="nav-link" href="#education">Education</a>
             </li>
           </ul>
         </nav>
@@ -52,7 +52,7 @@
               <li class="section-item">
                 <a href="https://github.com/Hedgehog404">Github:Hedgehog404</a>
               </li>
-              <li class="section-item"><a href="">Telegram:@call_jez</a>
+              <li class="section-item"><a href="https://telegram.me/call_jez">Telegram:@call_jez</a>
             </li>
             </ul>
           </section>
@@ -87,7 +87,7 @@
                   RS Schools Course «JavaScript/Front-end» (in progress)
                 </li>
                 <li class="section-item">
-                  React JS. Практический Курс (in progress)
+                  React JS. Practical Course (in progress)
                 </li>
               </ul>
             </div>
@@ -137,20 +137,20 @@
             <div class="code-container">
               <pre>
             <code>
-                function binarySearch(value, list) { 
-                    let first = 0;   
-                    let last = list.length - 1; 
+                function binarySearch(value, list) {
+                    let first = 0;
+                    let last = list.length - 1;
                     let position = -1;
                     let found = false;
                     let middle;
-                    while (found === false && first &lt;= last) { 
+                    while (found === false && first &lt;= last) {
                         middle = Math.floor((first + last)/2);
                         if (list[middle] == value) {
                             found = true;
                             position = middle;
-                        } else if (list[middle] > value) { 
+                        } else if (list[middle] > value) {
                             last = middle - 1;
-                        } else { 
+                        } else {
                             first = middle + 1;
                         }
                     }
