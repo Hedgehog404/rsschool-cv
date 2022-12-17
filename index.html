@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-    <header>
-        <nav class="nav">
+    <header class="header">
+        <nav class="navigation">
             <ul class="nav-list">
                 <li class="nav-item"> <a href="#contacts" class="nav-link">Contacts</a> </li>
                 <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a> </li>
@@ -21,11 +23,13 @@
         </nav>
     </header>
     <main> 
-    <section>    
+    <section class="about">    
             <h1>Maria Shalukhova</h1>
             <h3>JS/Frontend </h3>
-            <img src="./assets/img/image.jpg" alt="Hedgehog404">
-        
+            <img src="./assets/img/image.jpg" alt="avatar" class="avatar">
+            <div class=""></div>
+    </section>
+    <section class="summary">     
         <p>Dear Guest,<br>
             Thank you for looking at my CV. At the moment it is part of an assignment in a course I am studying,
              but I hope that the next time you visit me, the CV will be more professional).</p>
@@ -34,8 +38,8 @@
             as I'm really interested in it. I consider web-development as a promising area of user-centric development. I enjoy implementing both
             small features and entire applications, as well as tidying up the code. I am currently in the process of improving my skills to get a job as a JS developer.</p>
             <p>Thank you for your attention.</p>
-        </section>
-    <section>
+    </section>
+    <section class="skills">
             <h2>Education and Courses</h2>
             <ul>
                 <li>
@@ -59,7 +63,7 @@
                 <li>Polish (in progress)</li>
             </ul>
     </section>
-      <section>
+      <section class="code">
             <h2>Code example:</h2>
             <code>
                 function checkParent (src, dest) {<br>
@@ -72,12 +76,13 @@
                 </code>
         </section>
     </main>
-        <footer>
-            <p>Maria Shalukhova</p>
-            <p>Contact information:
-                <a href="shaluhova.m@gmail.com">someone@example.com</a>
-                <a href="shaluhova.m@gmail.com">github</a>
-            </p>
-        </footer>
+    <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item">Maria Shalukhova</li>
+            <li class="footer-item"><a href="shaluhova.m@gmail.com">gmail.com</a></li>
+            <li class="footer-item"><a href="https://github.com/Hedgehog404">github</a></li>
+            <li class="footer-item"><a href="https://rs.school/js/">rs.school</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
