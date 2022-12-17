@@ -1,88 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/favicon.ico" />
     <title>CV</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
+      <div class="container">
         <nav class="navigation">
-            <ul class="nav-list">
-                <li class="nav-item"> <a href="#contacts" class="nav-link">Contacts</a> </li>
-                <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a> </li>
-                <li class="nav-item"> <a href="#skills" class="nav-link">Skills</a> </li>
-                <li class="nav-item"> <a href="#code" class="nav-link">Code</a> </li>
-                <li class="nav-item"> <a href="#education" class="nav-link">Education</a> </li>
-            </ul>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+          </ul>
         </nav>
+      </div>
     </header>
-    <main> 
-    <section class="about">    
-            <h1>Maria Shalukhova</h1>
-            <h3>JS/Frontend </h3>
-            <img src="./assets/img/image.jpg" alt="avatar" class="avatar">
-            <div class=""></div>
-    </section>
-    <section class="summary">     
-        <p>Dear Guest,<br>
-            Thank you for looking at my CV. At the moment it is part of an assignment in a course I am studying,
-             but I hope that the next time you visit me, the CV will be more professional).</p>
-            <p>My dream is to become a really in-demand developer, and I'm on my way to that goal right now:
-            I'm successfully completing my university studies and devoting all my free time to studying Frontend Development,
-            as I'm really interested in it. I consider web-development as a promising area of user-centric development. I enjoy implementing both
-            small features and entire applications, as well as tidying up the code. I am currently in the process of improving my skills to get a job as a JS developer.</p>
-            <p>Thank you for your attention.</p>
-    </section>
-    <section class="skills">
-            <h2>Education and Courses</h2>
+    <main class="main-container">
+      <div class="container">
+        <div class="section-columns-container">
+          <section class="profile" id="profile">
+            <img src="./assets/img/image.jpg" alt="avatar" class="avatar" />
+            <div class="profile-title">
+              <h1>Maria Shalukhova</h1>
+              <h2>JS/Frontend</h2>
+            </div>
+          </section>
+          <section class="contacts" id="contacts">
+            <h2>Contacts</h2>
             <ul>
-                <li>
-                    RS Schools Course «JavaScript/Front-end» (in progress)
-                </li>
-                <li>
-                    React JS. Практический Курс (in progress)
-                </li>
+              <li class="section-item">
+                Location: Belarus (<i> ready for relocation</i>)
+              </li>
+              <li class="section-item">
+                <a href="mailto:shaluhova.m@gmail.com">Email:shaluhova.m@gmail.com</a>
+              </li>
+              <li class="section-item">
+                <a href="https://github.com/Hedgehog404">Github:Hedgehog404</a>
+              </li>
+              <li class="section-item"><a href="">Telegram:@call_jez</a>
+            </li>
             </ul>
+          </section>
+        </div>
+        <section class="summary" id="summary">
+          <h2>Summary</h2>
+          <p>
+            Dear Guest,<br />
+            Thank you for looking at my CV. At the moment it is part of an
+            assignment in a course I am studying, but I hope that the next time
+            you visit me, the CV will be more professional).
+          </p>
+          <p>
+            My dream is to become a really in-demand developer, and I'm on my
+            way to that goal right now: I'm successfully completing my
+            university studies and devoting all my free time to studying
+            Frontend Development, as I'm really interested in it. I consider
+            web-development as a promising area of user-centric development. I
+            enjoy implementing both small features and entire applications, as
+            well as tidying up the code. I am currently in the process of
+            improving my skills to get a job as a JS developer.
+          </p>
+          <p>Thank you for your attention.</p>
+        </section>
+        <section class="education" id="education">
+          <h2>Education and Courses</h2>
+          <div class="section-columns-container">
+            <div class="container-education">
+              <h3>Courses</h3>
+              <ul>
+                <li class="section-item">
+                  RS Schools Course «JavaScript/Front-end» (in progress)
+                </li>
+                <li class="section-item">
+                  React JS. Практический Курс (in progress)
+                </li>
+              </ul>
+            </div>
+            <div class="container-education">
+              <h3>Education</h3>
+              <ul>
+                <li class="section-item">
+                    State Institution of Higher Professional Education<q> Belarusian-Russian University </q>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="section-columns-container">
+          <section class="skills" id="skills">
             <h2>Skills and Proficiency:</h2>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JS/TS</li>
-                <li>C#</li>
+              <li class="section-item">HTML5</li>
+              <li class="section-item">CSS3</li>
+              <li class="section-item">JS/TS</li>
+              <li class="section-item">C#</li>
+              <li class="section-item">SQL</li>
             </ul>
+          </section>
+          <section class="languages" id="lanuages">
             <h2>Languages</h2>
             <ul>
-                <li>English B1 (in progress)</li>
-                <li>Belarusian Native</li>
-                <li>Polish (in progress)</li>
+              <li class="section-item">English B1 (in progress)</li>
+              <li class="section-item">Belarusian Native</li>
+              <li class="section-item">Polish (in progress)</li>
             </ul>
-    </section>
-      <section class="code">
-            <h2>Code example:</h2>
+          </section>
+        </div>
+        <section class="code" id="code">
+          <h2>Code example:</h2>
+          <div class="section-columns-container">
+            <div class="code-description">
+              <h3>Binary search</h3>
+              <p>
+                Find the middle element of the given array. Compare the middle
+                element with the value we are looking for (called key). If the
+                key is less than the middle element, search in the left half. If
+                the key is more than the middle element, search in the right
+                half.
+              </p>
+            </div>
+            <div class="code-container">
+              <pre>
             <code>
-                function checkParent (src, dest) {<br>
-                    while (src != null) {<br>
-                        if (src.tagName == dest) return src<br>
-                        src = src.parentElement<br>
-                    }<br>
-                    return null<br>
-                   }
+                function binarySearch(value, list) { 
+                    let first = 0;   
+                    let last = list.length - 1; 
+                    let position = -1;
+                    let found = false;
+                    let middle;
+                    while (found === false && first &lt;= last) { 
+                        middle = Math.floor((first + last)/2);
+                        if (list[middle] == value) {
+                            found = true;
+                            position = middle;
+                        } else if (list[middle] > value) { 
+                            last = middle - 1;
+                        } else { 
+                            first = middle + 1;
+                        }
+                    }
+                    return position;
+                }
                 </code>
+            </pre>
+            </div>
+          </div>
         </section>
+      </div>
     </main>
     <footer class="footer">
+      <div class="container">
         <ul class="footer-list">
-            <li class="footer-item">Maria Shalukhova</li>
-            <li class="footer-item"><a href="shaluhova.m@gmail.com">gmail.com</a></li>
-            <li class="footer-item"><a href="https://github.com/Hedgehog404">github</a></li>
-            <li class="footer-item"><a href="https://rs.school/js/">rs.school</a></li>
+          <li class="footer-item">Maria Shalukhova&nbsp; 2022 &nbsp;</li>
+          <li class="footer-item">
+            <a href="mailto:shaluhova.m@gmail.com" class="footer-link">
+                <img src="./assets//ico/email.ico" alt="gmail" class="footer-icons">
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="https://github.com/Hedgehog404" class="footer-link">
+                <img src="./assets//ico/github.ico" alt="github" class="footer-icons">
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="https://rs.school/js/" class="footer-link">
+                <img src="./assets/ico/rs_school_js.ico" alt="rs_school" class="footer-icons"/>
+            </a>
+          </li>
         </ul>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
