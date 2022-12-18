@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #003333;
+}
+
+section {
+    padding: 25px 50px;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-columns-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts,
+.profile,
+.container-education,
+.skills,
+.languages,
+.code-description,
+.code-container {
+    width: 50%;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 45px 45px rgba(102, 153, 153, 0.6);
+    object-fit: cover;
+}
+
+.header,
+.footer {
+    background-color: #669999;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    background-image: url(./assets/img/back_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.code,
+.summary {
+    background-color: rgba(102, 153, 153, 0.3);
+}
+
+.contacts,
+.education {
+    background-color: rgba(255, 204, 153, 0.3);
+    color: #003333;
+}
+
+.skills,
+.languages {
+    background-color: rgba(102, 153, 153, 0.6);
+}
+
+.contacts {
+    padding-top: 80px;
+}
+
+.nav-list,
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.nav-link,
+.footer-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #FFCC99;
+}
+
+.footer-icons {
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .contacts,
+    .profile,
+    .container-education,
+    .skills,
+    .languages,
+    .code-description,
+    .code-container {
+        width: 100%;
+    }
+}
